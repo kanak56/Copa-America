@@ -1,0 +1,533 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+/* this is body section */
+body{
+    font-family: 'Poppins', sans-serif;
+}
+/* this is introductory section */
+.introduction{
+    display: flex;
+    background-color: blue;
+}
+.Copa-America{
+    padding-top: 207px;
+    padding-left: 156px;
+    padding-right: 102px;
+    padding-bottom: 240px; 
+}
+.Copa-America h1{
+    color: whitesmoke;
+    font-size: 70px;
+    padding-bottom: 40px;
+}
+.Copa-America a{
+    text-decoration: none;
+    font-size: 20px;
+    color: white;
+    background-color: #E02C6D;
+    padding: 10px 24px;
+}
+.banner{
+    padding-top: 153px;
+    padding-right: 140.99px;
+    padding-bottom: 86px;
+}
+.banner:hover{
+    transform: rotate(15deg);
+    transition: 1s ease-in-out;
+}
+/* This is player section */
+.players{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 30px;
+    padding-top: 70px;
+    padding-left: 180px;
+    padding-right: 210px;
+}
+/* Neymar info */
+.players .naymar{
+    width: 330px;
+    height: 500px;
+    background: #FFFFFF;
+    box-shadow: 0px 0px 40px rgba(0, 0, 0, 0.15);
+}
+.players .naymar img{
+    height: 256px;
+    width: 300px;
+    padding-left: 15px;
+    padding-top: 15px;
+    padding-right: 15px;
+}
+.players .naymar .naymer-info{
+    font-size: 15px;
+    padding-top: 16px;
+    width: 330px;
+    height: 474px;
+}
+.players .naymar .naymar-info h3{
+    font-size: 30px;
+    padding-left: 15px;
+    padding-top: 10px;
+    padding-bottom: 16px;
+}
+.players .naymar .naymar-info p{
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-bottom: 33px;
+    font-size: 15px;
+    color: #6C6C6C;
+}
+
+
+/*---------------------------- 
+messi info 
+--------------------------------*/
+
+.players .messi{
+    width: 330px;
+    height: 500px;
+    background: #FFFFFF;
+    box-shadow: 0px 0px 40px rgba(0, 0, 0, 0.15);
+}
+.players .messi img{
+    height: 256px;
+    width: 300px;
+    padding-left: 15px;
+    padding-top: 15px;
+    padding-right: 15px;
+}
+.players .messi .messi-info{
+    font-size: 15px;
+    padding-top: 16px;
+    width: 330px;
+    height: 474px;
+}
+.players .messi .messi-info h3{
+    font-size: 30px;
+    padding-left: 15px;
+    padding-bottom: 16px;
+}
+.players .messi .messi-info p{
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-bottom: 33px;
+    font-size: 15px;
+    color: #6C6C6C;
+}
+
+/* --------------------------------
+This is ronaldo info
+------------------------------------ */
+
+.players .ronaldo{
+    width: 330px;
+    height: 500px;
+    background: #FFFFFF;
+    box-shadow: 0px 0px 40px rgba(0, 0, 0, 0.15);
+}
+.players .ronaldo img{
+    height: 256px;
+    width: 300px;
+    padding-left: 15px;
+    padding-top: 15px;
+    padding-right: 15px;
+}
+.players .ronaldo .ronaldo-info{
+    font-size: 15px;
+    padding-top: 16px;
+    width: 330px;
+    height: 474px;
+}
+.players .ronaldo .ronaldo-info h3{
+    font-size: 30px;
+    padding-left: 15px;
+    padding-bottom: 16px;
+}
+.players .ronaldo .ronaldo-info p{
+    padding-left: 15px;
+    padding-right: 15px;
+    font-size: 15px;
+    color: #6C6C6C;
+}
+
+/* ----------------------------------
+This is dybala info
+---------------------------- */
+
+.players .dybala{
+    width: 330px;
+    height: 500px;
+    background: #FFFFFF;
+    box-shadow: 0px 0px 40px rgba(0, 0, 0, 0.15);
+}
+.players .dybala img{
+    height: 256px;
+    width: 300px;
+    padding-left: 15px;
+    padding-top: 15px;
+    padding-right: 15px;
+}
+.players .dybala .dybala-info{
+    font-size: 15px;
+    padding-top: 16px;
+    width: 330px;
+    height: 474px;
+}
+.players .dybala .dybala-info h3{
+    font-size: 30px;
+    padding-left: 15px;
+    padding-bottom: 16px;
+}
+.players .dybala .dybala-info p{
+    padding-left: 15px;
+    padding-right: 15px;
+    font-size: 15px;
+    color: #6C6C6C;
+}
+
+/* ----------------------------------------
+This is ozil info
+------------------------------------------ */
+
+.players .ozil{
+    width: 330px;
+    height: 500px;
+    background: #FFFFFF;
+    box-shadow: 0px 0px 40px rgba(0, 0, 0, 0.15);
+}
+.players .ozil img{
+    height: 256px;
+    width: 300px;
+    padding-left: 15px;
+    padding-top: 15px;
+    padding-right: 15px;
+}
+.players .ozil .ozil-info{
+    font-size: 15px;
+    padding-top: 16px;
+    width: 330px;
+    height: 474px;
+}
+.players .ozil .ozil-info h3{
+    font-size: 30px;
+    padding-left: 15px;
+    padding-bottom: 16px;
+}
+.players .ozil .ozil-info p{
+    padding-left: 15px;
+    padding-right: 15px;
+    font-size: 15px;
+    color: #6C6C6C;
+}
+
+/* -------------------------
+This is Icardi info
+----------------------------- */
+
+.players .icardi{
+    width: 330px;
+    height: 500px;
+    background: #FFFFFF;
+    box-shadow: 0px 0px 40px rgba(0, 0, 0, 0.15);
+}
+.players .icardi img{
+    height: 256px;
+    width: 300px;
+    padding-left: 15px;
+    padding-top: 15px;
+    padding-right: 15px;
+}
+.players .icardi .icardi-info{
+    font-size: 15px;
+    padding-top: 16px;
+    width: 330px;
+    height: 474px;
+}
+.players .icardi .icardi-info h3{
+    font-size: 30px;
+    padding-left: 15px;
+    padding-bottom: 16px;
+}
+.players .icardi .icardi-info p{
+    padding-left: 15px;
+    padding-right: 15px;
+    font-size: 15px;
+    color: #6C6C6C;
+}
+
+/* -------------------------
+This is Di maria info
+---------------------------- */
+
+.players .di-maria{
+    width: 330px;
+    height: 500px;
+    background: #FFFFFF;
+    box-shadow: 0px 0px 40px rgba(0, 0, 0, 0.15);
+}
+.players .di-maria img{
+    height: 256px;
+    width: 300px;
+    padding-left: 15px;
+    padding-top: 15px;
+    padding-right: 15px;
+}
+.players .di-maria .di-maria-info{
+    font-size: 15px;
+    padding-top: 16px;
+    width: 330px;
+    height: 474px;
+}
+.players .di-maria .di-maria-info h3{
+    font-size: 30px;
+    padding-left: 15px;
+    padding-bottom: 16px;
+}
+.players .di-maria .di-maria-info p{
+    padding-left: 15px;
+    padding-right: 15px;
+    font-size: 15px;
+    color: #6C6C6C;
+}
+
+/* ------------------------
+This is Kylian Mbappé info
+--------------------------- */
+
+.players .Mbappe{
+    width: 330px;
+    height: 500px;
+    background: #FFFFFF;
+    box-shadow: 0px 0px 40px rgba(0, 0, 0, 0.15);
+}
+.players .Mbappe img{
+    height: 256px;
+    width: 300px;
+    padding-left: 15px;
+    padding-top: 15px;
+    padding-right: 15px;
+}
+.players .Mbappe .Mbappe-info{
+    font-size: 15px;
+    padding-top: 16px;
+    width: 330px;
+    height: 474px;
+}
+.players .Mbappe .Mbappe-info h3{
+    font-size: 30px;
+    padding-left: 15px;
+    padding-bottom: 16px;
+}
+.players .Mbappe .Mbappe-info p{
+    padding-left: 15px;
+    padding-right: 15px;
+    font-size: 15px;
+    color: #6C6C6C;
+}
+
+/* -------------------------
+This is Mohamed Salah info
+------------------------------ */
+
+.players .salah{
+    width: 330px;
+    height: 500px;
+    background: #FFFFFF;
+    box-shadow: 0px 0px 40px rgba(0, 0, 0, 0.15);
+}
+.players .salah img{
+    height: 256px;
+    width: 300px;
+    padding-left: 15px;
+    padding-top: 15px;
+    padding-right: 15px;
+}
+.players .salah .salah-info{
+    font-size: 15px;
+    padding-top: 16px;
+    width: 330px;
+    height: 474px;
+}
+.players .salah .salah-info h3{
+    font-size: 30px;
+    padding-left: 15px;
+    padding-bottom: 16px;
+}
+.players .salah .salah-info p{
+    padding-left: 15px;
+    padding-right: 15px;
+    font-size: 15px;
+    color: #6C6C6C;
+}
+
+/* ---------------------------------
+This is highlishts section 
+------------------------------*/
+.highlight{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 69px;
+}
+.highlight-info{
+    padding-top: 224px;
+    padding-left: 210px;
+    width: 466px;
+    height: 309px;
+}
+.highlight-info h2{
+    font-size: 40px;
+}
+.highlight-info p{
+    font-size: 15px;
+    color:#6C6C6C ;
+    padding-bottom: 24px;
+    padding-top: 8px;
+}
+.highlight-info a{
+    text-decoration: none;
+    font-size: 20px;
+    color: white;
+    background-color: #E02C6D;
+    padding: 10px 24px;
+
+}
+
+.highlight img{
+    padding-top: 170px;
+    padding-right: 156px;
+    width: 567px;
+    height: 427px;
+}
+/* ---------------------
+This is extra section
+------------------------- */
+
+.extra{
+    display: flex;
+    justify-content: center;
+    padding-top: 200px;
+}
+.extra-info{
+    height: 300px;
+    width: 300px;
+}
+.extra-info h1{
+    font-size: 40px;
+}
+.extra-info h1 .a{
+    color: red;
+}
+.extra-info h1 .b{
+    color: blueviolet;
+}
+.extra-info h1 .o{
+    color: coral;
+}
+.extra-info h1 .u{
+    color: darkgrey;
+}
+.extra-info h1 .t{
+    color: darkorange;
+}
+.extra-info p{
+    padding-top: 10px;
+    color: grey;
+}
+/* ------------------------
+this is footer section
+--------------------- */
+footer{
+    padding-top: 20px;
+    padding-bottom: 72px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 15px;
+}
+.football-logo{
+    width: 300px;
+}
+.icon-logos .fab{
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+/* ----------------------
+media queries
+------------------------------ */
+
+/* For mobile devices */
+@media only screen and (max-width:731px) {
+    .introduction{
+        width: 100%;
+        display: inline-block;
+       
+    }
+    .Copa-America{
+        padding-left: 20px;
+        padding-bottom: 0px;
+    }
+    .Copa-America h1{
+        font-size: 70px;
+    }
+    .banner img{
+        height: 400px;
+        width: 400px;
+    }
+    .players{
+        grid-template-columns: repeat(1, 1fr);
+        padding-left: 20px;
+    }
+    .highlight{
+        grid-template-columns: repeat(1, 1fr);
+    }
+    .highlight-info{
+        padding-left: 20px;
+        height: 400px;
+        width: 350px;
+    }
+    .highlight img{
+        padding-left:20px ;
+        width: 370px;
+        height: 350px;
+    }
+}
+
+/* For tablet devices */
+@media only screen and  (min-width:732px) and (max-width:1024px) {
+    .introduction{
+        width: 100%;
+        display: inline-block;
+       
+    }
+    .banner{
+        padding-top: 0px;
+        padding-left: 50px;
+        padding-right: 0px;
+    }
+    .banner img{
+        height: 480px;
+        width: 556px;
+    }
+    .players{
+        grid-template-columns: repeat(2, 1fr);
+        padding-left: 20px;
+        padding-right: 0px;
+    }
+    .highlight-info{
+        padding-left: 70px;
+        height: 300px;
+        width: 600px;
+    }
+    .highlight{
+        grid-template-columns: repeat(1, 1fr);
+    }
+    .highlight img{
+        padding-left:85px ;
+        padding-right: 0px;
+    }
+}
